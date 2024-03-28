@@ -1,0 +1,20 @@
+{
+    "name": "satotory/wbparser",
+    "type": "project",
+    "require": {
+        "guzzlehttp/guzzle": "^7.8",
+        "guzzlehttp/psr7": "^2.6",
+        "phplucidframe/console-table": "^1.2",
+        "aszone/fakeheaders": "^0.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Satotory\\Wbparser\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "satotory"
+        }
+    ]
+}
